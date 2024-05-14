@@ -1,0 +1,63 @@
+/* Write your CSS here */
+.mainContainer {
+  background-color: white;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.lightContainer {
+  background-color: black;
+  border: 3px;
+  border-radius: 5px;
+  height: 200px;
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+.darkContainer {
+  background-color: white;
+  border: 3px solid black;
+  border-radius: 5px;
+  height: 200px;
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+.headDark {
+  color: black;
+  font-family: Roboto;
+  font-size: 28px;
+  text-align: center;
+}
+.headLight {
+  color: white;
+  font-family: Roboto;
+  font-size: 28px;
+  text-align: center;
+}
+.btn1 {
+  font-family: Roboto;
+  height: 40px;
+  border: 0px;
+  border-radius: 5px;
+  padding: 10px;
+  background-color: white;
+  color: black;
+}
+.btn2 {
+  font-family: Roboto;
+  height: 40px;
+  border: 0px;
+  border-radius: 5px;
+  padding: 10px;
+  background-color: black;
+  color: white;
+}
